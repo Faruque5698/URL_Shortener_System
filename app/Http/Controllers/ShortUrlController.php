@@ -11,13 +11,6 @@ use Symfony\Component\HttpFoundation\Response;
 class ShortUrlController extends Controller
 {
     use ShortUrlTrait;
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        return redirect('/');
-    }
 
     /**
      * Store a newly created resource in storage.
